@@ -1,0 +1,19 @@
+body{
+  background-color: rgb(248, 223, 227);
+
+}
+.App{
+  margin-left: 43em;
+  margin-top: 20em;
+}
+input{
+  background-color:palevioletred;
+  
+}
+button{
+  background-color: rebeccapurple;
+  border-radius: 50%;
+}
+.add-list{
+  display: block;
+}
