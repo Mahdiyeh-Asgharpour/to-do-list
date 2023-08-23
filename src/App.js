@@ -1,7 +1,10 @@
 
 import './App.css';
 import {useState} from "react";
+
+
 function App() {
+
   const [lists,setLists]=useState([]);
   const [newLists,setNewLists]=useState("");
   const handleChange=(event)=>{
@@ -31,5 +34,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

@@ -1,18 +1,26 @@
-body{
-  background-color: rgb(248, 223, 227);
-
-}
-.App{
+/* .App{
   margin-left: 43em;
   margin-top: 20em;
-}
+} */
 input{
-  background-color:palevioletred;
+  background-color:rgb(131, 68, 116);
+  border: 2px solid paleturquoise;
+  width: 10em;
+  height: 3em;
+  font-size: xx-large;
+  border-radius: 5PX;
+  font-family:"thabit" ;
+  font-weight: bolder;
+  font-style: italic;
   
 }
 button{
-  background-color: rebeccapurple;
+  background-color: rgb(146, 153, 51);
   border-radius: 50%;
+  margin-left: 2em;
+  width: 50px;
+  height: 50px;
+  margin-top: 20PX;
 }
 .add-list{
   display: block;
