@@ -1,8 +1,7 @@
 
 import './App.css';
 import {useState} from "react";
-
-
+import Lisst from './Lisst.js';
 function App() {
 
   const [lists,setLists]=useState([]);
@@ -11,10 +10,15 @@ function App() {
     setNewLists(event.target.value)
   }
   const addlist=()=>{
-    setLists([...lists,newLists])
+    const list ={
+      id:lists.length===0 ? 1 : lists[lists.length-1].id+1,
+      listname:newLists
+      
+    }
+    setLists([...lists,list])
   }
   const deletelist=(list)=>{
-    setLists(lists.filter((event)=>{return list!==event}))
+    setLists(lists.filter((event)=>{return list!==event.id}))
   }
   return (
     <div className="App">
@@ -22,12 +26,10 @@ function App() {
         <input type="text" onChange={handleChange}></input>
         <button onClick={addlist}>Add to list</button>
       </div>
-      {lists.map((list)=>{
+      {lists.map((list,index)=>{
         return (
-        <div>
-          <h1>{list}</h1>
-          <button onClick={()=>deletelist(list)}>x</button>
-        </div>
+          <Lisst  key={index} list={list} deletelist={deletelist}></Lisst>
+          
         )
       })}
        <div className="llist"></div>
