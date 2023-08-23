@@ -1,7 +1,7 @@
 
 import './App.css';
 import {useState} from "react";
-import Lisst from './Lisst.js';
+import Lisst from './Lisst.jsx';
 function App() {
 
   const [lists,setLists]=useState([]);
