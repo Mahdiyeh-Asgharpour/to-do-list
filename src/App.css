@@ -3,7 +3,7 @@
   margin-top: 20em;
 } */
 input{
-  background-color:rgb(131, 68, 116);
+  background-color:rgb(61, 10, 50);
   border: 2px solid paleturquoise;
   width: 10em;
   height: 3em;
@@ -12,6 +12,7 @@ input{
   font-family:"thabit" ;
   font-weight: bolder;
   font-style: italic;
+  color: wheat;
   
 }
 button{
