@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import 'd:\programming\font\AliMD-1fonts-d636f27\fonts\thabit.ttf';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

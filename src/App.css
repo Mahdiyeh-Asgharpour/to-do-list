@@ -1,7 +1,3 @@
-/* .App{
-  margin-left: 43em;
-  margin-top: 20em;
-} */
 input{
   background-color:rgb(61, 10, 50);
   border: 2px solid paleturquoise;
@@ -23,6 +19,14 @@ button{
   height: 50px;
   margin-top: 20PX;
 }
+
 .add-list{
-  display: block;
+  background:  linear-gradient(-210deg,rgb(131, 68, 116) 30%, rgb(248, 223, 227) 30%);
+}
+div{
+  border-radius: 25px;
+  padding: 10px;
+}
+div :not(.add-list){
+  margin: 20px;
 }

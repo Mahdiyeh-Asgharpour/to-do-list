@@ -21,16 +21,12 @@ code {
 body{
   font-family:"thabit" ;
   font-weight: bolder;
-  /* background-color:; */
   justify-content: center;
   display: flex;
   text-align: center;
   align-items: center;
   font-size: large;
-  margin-top: 20PX;
-  /* background: rgb(248, 223, 227), url(pexels-cottonbro-studio-5191391.jpg) ; */
-  background: linear-gradient(-210deg,rgb(131, 68, 116) 30%, rgb(248, 223, 227) 30%), url('pexels-cottonbro-studio-5191391.jpg');
+  background:url('pexels-cottonbro-studio-5191391.jpg');
   background-repeat: no-repeat;
-  /*background-size: cover; */
-  margin-top: 50px;
+  background-size: cover;
 }

@@ -34,14 +34,14 @@ function App() {
         <input type="text" onChange={handleChange}></input>
         <button onClick={addlist}>Add to list</button>
       </div>
-      <div className="llist"></div>
-      {lists.map((list,index)=>{
-        return (
-          <Lisst  key={index} list={list} deletelist={deletelist} completelist={completelist}></Lisst>
+      <div className="llist">
+        {lists.map((list,index)=>{
+          return (
+            <Lisst  key={index} list={list} deletelist={deletelist} completelist={completelist}></Lisst>
           
         )
       })}
-       
+      </div>
     </div>
   );
 }
