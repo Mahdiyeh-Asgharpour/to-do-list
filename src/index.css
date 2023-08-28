@@ -21,12 +21,12 @@ code {
 body{
   font-family:"thabit" ;
   font-weight: bolder;
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  align-items: center;
   font-size: large;
   background:url('pexels-cottonbro-studio-5191391.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }

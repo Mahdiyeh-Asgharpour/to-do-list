@@ -22,11 +22,12 @@ button{
 
 .add-list{
   background:  linear-gradient(-210deg,rgb(131, 68, 116) 30%, rgb(248, 223, 227) 30%);
+  width: 25em;
 }
 div{
   border-radius: 25px;
   padding: 10px;
+  margin-top: 20px;
+  
 }
-div :not(.add-list){
-  margin: 20px;
-}
+
