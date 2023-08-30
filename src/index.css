@@ -26,7 +26,12 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
-  display: flex;
+  /* display: flex; */
   text-align: center;
   align-items: center;
+  overflow: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
 }

@@ -8,26 +8,62 @@ input{
   font-family:"thabit" ;
   font-weight: bolder;
   font-style: italic;
-  color: wheat;
+  color: paleturquoise;
   
 }
 button{
   background-color: rgb(146, 153, 51);
   border-radius: 50%;
   margin-left: 2em;
+  width: 25px;
+  height: 25px;
+  margin-top: 10PX;
+}
+.addbtn{
   width: 50px;
   height: 50px;
-  margin-top: 20PX;
+  margin-left: 2em;
+  background-color: rgb(61, 10, 50);
+  color: paleturquoise;
+
 }
 
 .add-list{
   background:  linear-gradient(-210deg,rgb(131, 68, 116) 30%, rgb(248, 223, 227) 30%);
-  width: 25em;
+
+  width:210vh;
+  height: 25vh;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: -20px;
 }
 div{
   border-radius: 25px;
-  padding: 10px;
-  margin-top: 20px;
+  /* padding: 10px;*/
+  margin-top: 20px; 
   
 }
 
+.list{
+  width:10em;
+  height: 1em;
+  margin-left: 3em; 
+  margin-bottom: 10em;
+}
+
+.llist{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:205vh;
+  height: 75vh;
+  margin-top: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-color: rgb(61, 10, 50) rgb(248, 223, 227);
+  
+}

@@ -31,11 +31,11 @@ function App() {
     setLists(newwlist)
   }
   return (
-    <div className="App">
-      <div className="add-list">
+    < >
+      <section className="add-list">
         <input type="text" onChange={handleChange}></input>
-        <button onClick={addlist}>Add to list</button>
-      </div>
+        <button onClick={addlist} className="addbtn">Add to list</button>
+      </section>
       <div className="llist">
         {lists.map((list,index)=>{
           return (
@@ -44,7 +44,7 @@ function App() {
         )
       })}
       </div>
-    </div>
+    </>
   );
 }
 export default App;
