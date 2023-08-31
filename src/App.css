@@ -39,31 +39,36 @@ button{
   align-items: center;
   margin-top: -20px;
 }
-div{
-  border-radius: 25px;
-  /* padding: 10px;*/
-  margin-top: 20px; 
-  
-}
-
 .list{
-  width:10em;
-  height: 1em;
-  margin-left: 3em; 
-  margin-bottom: 10em;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: flex-start;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-top: 10px;
 }
 
 .llist{
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
-  text-align: center;
-  align-items: center;
+  text-align:justify;
+  align-items: flex-start;
   flex-wrap: wrap;
   width:205vh;
   height: 75vh;
   margin-top: 0;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll;
   scrollbar-color: rgb(61, 10, 50) rgb(248, 223, 227);
+  gap: 3px 0;
+  
+}
+.llist::-webkit-scrollbar {
+  display: none;
+}
+.h1list{
+  display: inline;
   
 }

@@ -8,8 +8,10 @@ function App() {
 
   const [lists,setLists]=useState([]);
   const [newLists,setNewLists]=useState("");
+  const [result,setResult]=useState("");
   const handleChange=(event)=>{
-    setNewLists(event.target.value)
+    setNewLists(event.target.value);
+    
   }
   const addlist=()=>{
     const list ={
@@ -35,6 +37,7 @@ function App() {
       <section className="add-list">
         <input type="text" onChange={handleChange}></input>
         <button onClick={addlist} className="addbtn">Add to list</button>
+       
       </section>
       <div className="llist">
         {lists.map((list,index)=>{
