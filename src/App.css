@@ -45,6 +45,7 @@ button{
   line-height: 40px;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 5px 10px;
   font-size: 16px;
   border-radius: 3px;
@@ -71,4 +72,11 @@ button{
 .h1list{
   display: inline;
   
+  
+}
+.x{
+display: flex;
+justify-content: flex-end;
+text-align: right;
+align-items: flex-end;
 }
