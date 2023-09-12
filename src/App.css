@@ -93,3 +93,44 @@ align-items: flex-end;
   width: 1000px;
  }
 }
+@media  screen and (max-width:500px) and (orientation:portrait) {
+ *{
+    overflow: hidden;
+
+  }
+  
+  input{
+    margin-top:10px;
+    width: 7em;
+  height: 1.5em;
+  }
+ 
+.list{
+  width: 50%;
+}
+.h1list{
+  font-size:large;
+  font-weight: bolder;
+}
+  
+}
+@media  screen and (max-width:500px) and (orientation:portrait)and (min-width:400px)  {
+  .add-list{
+    width: 500px;
+   }
+   .llist{
+    width: 500px;
+   }
+
+}
+@media  screen and (max-width:400px) and (orientation:portrait){
+  .add-list{
+    width: 400px;
+   }
+   .llist{
+    width: 400px;
+   }
+
+}
+
+
