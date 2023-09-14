@@ -18,6 +18,7 @@ button{
   width: 25px;
   height: 25px;
   margin-top: 10PX;
+  cursor: pointer;
 }
 .addbtn{
   width: 50px;
@@ -84,14 +85,36 @@ align-items: flex-end;
   *{
     overflow:hidden;
   }
+  
   input{
     margin-top:10px;
-    width: 7em;
-  height: 1.5em;
+    width: 10em;
+  height: 2.5em;
+  font-size: large;
   }
  .add-list{
   width: 1000px;
  }
+ .list{
+  width: 80%;
+
+}
+.llist{
+  width: 600px;
+  
+
+}
+
+button:not(.addbtn){
+  margin-left: 0;
+  width: 25px;
+  height: 25px;
+
+}
+.h1list{
+  font-size:large;
+  font-weight: bolder;
+}
 }
 @media  screen and (max-width:500px) and (orientation:portrait) {
  *{
@@ -101,12 +124,23 @@ align-items: flex-end;
   
   input{
     margin-top:10px;
-    width: 7em;
-  height: 1.5em;
+    width: 10em;
+  height: 2.5em;
+  font-size: large;
+ 
   }
  
 .list{
-  width: 50%;
+  width: 80%;
+}
+.x{
+  width: 20%;
+}
+button:not(.addbtn){
+  margin-left: 0;
+  width: 25px;
+  height: 25px;
+
 }
 .h1list{
   font-size:large;
@@ -119,7 +153,7 @@ align-items: flex-end;
     width: 500px;
    }
    .llist{
-    width: 500px;
+    width: 400px;
    }
 
 }
@@ -128,7 +162,7 @@ align-items: flex-end;
     width: 400px;
    }
    .llist{
-    width: 400px;
+    width: 300px;
    }
 
 }
