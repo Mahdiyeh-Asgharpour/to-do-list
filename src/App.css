@@ -99,12 +99,22 @@ align-items: flex-end;
   width: 80%;
 
 }
-.llist{
-  width: 600px;
+
+@media screen and (max-width:1000px) and (min-width:400px) and  (orientation: landscape){
+  .llist{
+    width: 800px;
+    
   
-
+  }
 }
-
+@media screen and (max-width:400px) and (min-width:300px) and  (orientation: landscape){
+  .llist{
+    width: 200px;
+    
+  }
+  
+}
+ 
 button:not(.addbtn){
   margin-left: 0;
   width: 25px;
@@ -164,6 +174,42 @@ button:not(.addbtn){
    .llist{
     width: 300px;
    }
+
+}
+@media  screen and (max-width:1024px) and  (min-width:768px) and (orientation:portrait){
+  *{
+    overflow:hidden;
+  }
+  .add-list{
+    width:1000px;
+   }
+   .llist{
+    width: 700px;
+   }
+   .list{
+    width: 80%;
+  }
+  .x{
+    width: 20%;
+  }
+
+}
+@media  screen and (max-height:1024px) and  (min-height:768px) and (orientation:landscape){
+  *{
+    overflow:hidden;
+  }
+  .add-list{
+    width:1000px;
+   }
+   .llist{
+    width: 1000px;
+   }
+   .list{
+    width: 80%;
+  }
+  .x{
+    width: 20%;
+  }
 
 }
 
