@@ -100,6 +100,19 @@ align-items: flex-end;
 
 }
 
+
+ 
+button:not(.addbtn){
+  margin-left: 0;
+  width: 25px;
+  height: 25px;
+
+}
+.h1list{
+  font-size:large;
+  font-weight: bolder;
+}
+}
 @media screen and (max-width:1000px) and (min-width:400px) and  (orientation: landscape){
   .llist{
     width: 800px;
@@ -113,18 +126,6 @@ align-items: flex-end;
     
   }
   
-}
- 
-button:not(.addbtn){
-  margin-left: 0;
-  width: 25px;
-  height: 25px;
-
-}
-.h1list{
-  font-size:large;
-  font-weight: bolder;
-}
 }
 @media  screen and (max-width:500px) and (orientation:portrait) {
  *{
