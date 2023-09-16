@@ -1,3 +1,6 @@
+body{
+  height: 100vh;
+}
 input{
   background-color:rgb(61, 10, 50);
   border: 2px solid paleturquoise;
@@ -31,8 +34,7 @@ button{
 
 .add-list{
   background:  linear-gradient(-210deg,rgb(131, 68, 116) 30%, rgb(248, 223, 227) 30%);
-
-  width:210vh;
+  /* width:10em; */
   height: 25vh;
   justify-content: center;
   display: flex;
@@ -81,7 +83,7 @@ justify-content: flex-end;
 text-align: right;
 align-items: flex-end;
 }
-@media screen and (max-width:1000px) and (orientation: landscape){
+@media screen and (max-height:1000px) and (orientation: landscape){
   *{
     overflow:hidden;
   }
@@ -99,9 +101,6 @@ align-items: flex-end;
   width: 80%;
 
 }
-
-
- 
 button:not(.addbtn){
   margin-left: 0;
   width: 25px;
@@ -113,19 +112,19 @@ button:not(.addbtn){
   font-weight: bolder;
 }
 }
-@media screen and (max-width:1000px) and (min-width:400px) and  (orientation: landscape){
+@media screen and (max-height:600px) and  (orientation: landscape){
+  .llist{
+    width: 700px;
+    
+  }
+ 
+}
+@media screen and (min-width:800px) and  (orientation: landscape)and (max-width:1000px){
   .llist{
     width: 800px;
     
-  
   }
-}
-@media screen and (max-width:400px) and (min-width:300px) and  (orientation: landscape){
-  .llist{
-    width: 200px;
-    
-  }
-  
+ 
 }
 @media  screen and (max-width:500px) and (orientation:portrait) {
  *{
