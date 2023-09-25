@@ -34,11 +34,11 @@ function App() {
   }
   return (
     < >
-      <section className="add-list">
+      <div className="add-list" >
         <input type="text" onChange={handleChange}></input>
         <button onClick={addlist} className="addbtn">Add to list</button>
        
-      </section>
+      </div>
       <div className="llist">
         {lists.map((list,index)=>{
           return (

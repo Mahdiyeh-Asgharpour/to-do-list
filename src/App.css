@@ -1,11 +1,8 @@
-body{
-  height: 100vh;
-}
 input{
   background-color:rgb(61, 10, 50);
   border: 2px solid paleturquoise;
   width: 10em;
-  height: 3em;
+  height:3em;
   font-size: xx-large;
   border-radius: 5PX;
   font-family:"thabit" ;
@@ -31,16 +28,14 @@ button{
   color: paleturquoise;
 
 }
-
 .add-list{
   background:  linear-gradient(-210deg,rgb(131, 68, 116) 30%, rgb(248, 223, 227) 30%);
-  /* width:10em; */
   height: 25vh;
+  width: 220vh;
   justify-content: center;
   display: flex;
   text-align: center;
   align-items: center;
-  margin-top: -20px;
 }
 .list{
   width: 50%;
@@ -83,35 +78,7 @@ justify-content: flex-end;
 text-align: right;
 align-items: flex-end;
 }
-@media screen and (max-height:1000px) and (orientation: landscape){
-  *{
-    overflow:hidden;
-  }
-  
-  input{
-    margin-top:10px;
-    width: 10em;
-  height: 2.5em;
-  font-size: large;
-  }
- .add-list{
-  width: 1000px;
- }
- .list{
-  width: 80%;
 
-}
-button:not(.addbtn){
-  margin-left: 0;
-  width: 25px;
-  height: 25px;
-
-}
-.h1list{
-  font-size:large;
-  font-weight: bolder;
-}
-}
 @media screen and (max-height:600px) and  (orientation: landscape){
   .llist{
     width: 700px;
@@ -124,10 +91,14 @@ button:not(.addbtn){
     width: 800px;
     
   }
+
  
 }
 @media  screen and (max-width:500px) and (orientation:portrait) {
- *{
+  body{
+    height: 100vh;
+  }
+  *{
     overflow: hidden;
 
   }
@@ -177,6 +148,9 @@ button:not(.addbtn){
 
 }
 @media  screen and (max-width:1024px) and  (min-width:768px) and (orientation:portrait){
+  body{
+    height: 100vh;
+  }
   *{
     overflow:hidden;
   }
@@ -195,11 +169,14 @@ button:not(.addbtn){
 
 }
 @media  screen and (max-height:1024px) and  (min-height:768px) and (orientation:landscape){
+  body{
+    height: 100vh;
+  }
   *{
     overflow:hidden;
   }
   .add-list{
-    width:1000px;
+    width:1500px;
    }
    .llist{
     width: 1000px;
@@ -212,5 +189,34 @@ button:not(.addbtn){
   }
 
 }
+ 
+@media screen and (max-width:1000px) and (orientation: landscape)
+{
+  *{
+    overflow:hidden;
+  }
+  
+  input{
+    margin-top:10px;
+    width: 10em;
+  height: 2.5em;
+  font-size: large;
+  }
+ .add-list{
+  width: 1000px;
+ }
+ .list{
+  width: 80%;
 
+}
+button:not(.addbtn){
+  margin-left: 0;
+  width: 25px;
+  height: 25px;
 
+}
+.h1list{
+  font-size:large;
+  font-weight: bolder;
+}
+}
